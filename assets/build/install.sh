@@ -16,7 +16,8 @@ exec_as_git() {
 
 # ppa for golang1.5
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv B0B8B106A0CA2F79FBB616DBA65E2E5D742A38EE
-echo "deb http://ppa.launchpad.net/evarlast/golang1.5/ubuntu trusty main" >> /etc/apt/sources.list
+echo "deb http://ppa.launchpad.net/gophers/archive/ubuntu trusty main" >> /etc/apt/sources.list
+
 
 # install build dependencies for gem installation
 apt-get update
